@@ -4,19 +4,19 @@ This project is made up of four projects that I completed in my algorithm and da
 
 ## Description
 
-### Stack
+### Stack - PA1
 
 This program functions as a simple student database, storing each student's ID, first name, and last name as strings. The main array serves as the database, holding all student records. To efficiently access and manage the data, three index arrays (sorted by ID, first name, and last name) are used. Each index array contains a reference to the corresponding record's position in the main array. A static stack is implemented to reclaim space after a record is deleted, ensuring efficient memory management.
 
-### Linked List
+### Linked List - PA2
 
 This program manages a student database, storing each student's ID, first name, and last name as strings. The data is organized in a main array, where each entry represents a student record. Three separate index arrays (sorted by ID, first name, and last name) are maintained for efficient data retrieval, with each entry pointing to the corresponding record's position in the main array. Like the stack-based version, a static stack is implemented to reclaim space when records are deleted.
 
-### Binary Search Tree 
+### Binary Search Tree - PA3
 
 This program operates as a student database using binary search trees (BSTs) for efficient data storage and lookup. Each student record, consisting of ID, first name, and last name (all strings), is stored in the main array. For fast access, three BSTs are maintained—one for IDs, one for first names, and one for last names. Each node in the tree contains a reference to the record's position in the main array. A static stack is also implemented here to reclaim space after deletions, ensuring efficient memory utilization.
 
-### Algorithm Speed Tester
+### Algorithm Speed Tester - PA4
 
 This program compares the performance of three different sorting algorithms: **QuickSort**, **HeapSort**, and **MergeSort**. It measures the time taken by each algorithm to sort arrays of integers under three different conditions:
 
